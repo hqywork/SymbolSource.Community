@@ -1,3 +1,5 @@
+This is a fork based on https://github.com/MoonStorm/SymbolSource.Community which fixes the issue with the latest msbuild 
+
 This repository holds open source SymbolSource projects.
 
 
