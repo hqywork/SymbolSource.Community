@@ -5,12 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{744C48E9-BDEF-47EB-8AF8-19D07C14838C}"
 	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+		PackAndPush.cmd = PackAndPush.cmd
+		README.md = README.md
 		SymbolSource.Integration.NuGet.CommandLine.nuspec = SymbolSource.Integration.NuGet.CommandLine.nuspec
 		SymbolSource.Integration.NuGet.PackageExplorer.nuspec = SymbolSource.Integration.NuGet.PackageExplorer.nuspec
 		SymbolSource.Server.Basic.nuspec = SymbolSource.Server.Basic.nuspec
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4AC76D76-6E0B-4D3D-B61C-4E9D4FC6AF18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Processing.Basic", "Sources\SymbolSource.Processing.Basic\SymbolSource.Processing.Basic.csproj", "{2E6CD475-5BDF-43FF-8A69-EFC731179DAB}"
 EndProject
@@ -39,6 +40,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Gateway.Core.Tests", "Sources\SymbolSource.Gateway.Core.Tests\SymbolSource.Gateway.Core.Tests.csproj", "{FF4E7232-EACE-4695-84C1-7DA48F091D5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSource.Integration.NuGet", "Sources\SymbolSource.Integration.NuGet\SymbolSource.Integration.NuGet.csproj", "{B2C7F38E-E1E4-41DE-A1F5-6D8C192ADBE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{17D91D3A-0E82-42A7-8014-2C9C1D951430}"
+	ProjectSection(SolutionItems) = preProject
+		tools\o.exe = tools\o.exe
+		tools\openwrap-2.0.0.83934129.wrap = tools\openwrap-2.0.0.83934129.wrap
+		tools\PackAndPush.ps1 = tools\PackAndPush.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

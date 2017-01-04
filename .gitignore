@@ -12,3 +12,5 @@ App_Data
 *.nupkg
 /Release
 /.vs
+/Sources/SymbolSource.Gateway.NuGet.Core/app.config
+/Sources/SymbolSource.Gateway.NuGet.Core/app.config
